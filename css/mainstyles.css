@@ -5,6 +5,13 @@ body {
 h1 {
   color: #014A72; }
 
+a {
+  color: #014A72; }
+  a:hover, a:active {
+    color: #01293f; }
+  a:visited {
+    color: #016ba5; }
+
 .highlight {
   color: #014A72; }
 

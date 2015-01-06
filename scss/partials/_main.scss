@@ -7,6 +7,18 @@ h1 {
 	color: $highlight;
 }
 
+a {
+	color: $highlight;
+
+	&:hover, &:active {
+		color: $highlight-dark;
+	}
+
+	&:visited {
+		color: $highlight-light;
+	}
+}
+
 .highlight {
 	color: $highlight;
 }
