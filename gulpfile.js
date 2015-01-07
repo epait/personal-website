@@ -30,6 +30,4 @@ gulp.task('default', ['sass', 'browser-sync'], function () {
 });
 
 // Compile CSS without Browser Sync
-gulp.task('compile', ['sass'], function () {
-    gulp.watch('**/*.scss', ['sass']);
-});
+gulp.task('compile', ['sass']);
