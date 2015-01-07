@@ -1,22 +1,8 @@
-body {
-  background: #F1F1F1;
-  font-family: 'Open Sans'; }
+.grid {
+  width: 100%; }
 
-h1 {
-  color: #014A72; }
-
-a {
-  color: #014A72; }
-  a:hover, a:active {
-    color: #01293f; }
-  a:visited {
-    color: #016ba5; }
-
-.highlight {
-  color: #014A72; }
-
-.accent {
-  color: #AAAAAA; }
+.row {
+  margin: 15px 0 15px 0; }
 
 body {
   background: #F1F1F1;
