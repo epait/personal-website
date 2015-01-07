@@ -28,3 +28,8 @@ gulp.task('browser-sync', function() {
 gulp.task('default', ['sass', 'browser-sync'], function () {
     gulp.watch('**/*.scss', ['sass']);
 });
+
+// Compile CSS without Browser Sync
+gulp.task('compile', ['sass'], function () {
+    gulp.watch('**/*.scss', ['sass']);
+});
