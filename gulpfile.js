@@ -10,6 +10,9 @@ gulp.task('sass', function () {
         .on('error', function (err) { console.log(err.message); })
         .pipe(gulp.dest('./css'))
         .pipe(plugins.filter('**/*.css'))
+        .pipe(plugins.minifyCss())
+		.pipe(plugins.rename({suffix: '.min'}))
+		.pipe(gulp.dest('./css'))
         .pipe(browserSync.reload({stream: true}));
 });
 
