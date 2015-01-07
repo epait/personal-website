@@ -1,5 +1,12 @@
+// -------------------------------------
+//   Final combined stylesheet
+// -------------------------------------
+
+// Global Imports
 @import "compass/css3";
 @import "compass/utilities";
 @import "partials/variables";
+@import "partials/mixins";
 
+// Page Styles
 @import "partials/main";
