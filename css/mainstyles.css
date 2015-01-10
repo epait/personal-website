@@ -4,11 +4,9 @@
 
 .row {
   display: flex;
-  align-items: stretch;
   margin: 0 0 30px 0; }
 
 div[class*='col-'] {
-  align-self: flex-start;
   margin: 0 15px;
   background: red; }
 

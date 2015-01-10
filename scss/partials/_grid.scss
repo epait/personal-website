@@ -10,21 +10,17 @@
 
 .row {
 	display: flex;
-	align-items: stretch;
 
 	margin: 0 0 30px 0;
 }
 
 div[class*='col-'] {
-	align-self: flex-start;
-
 	margin: 0 15px;
 
 	background: red;
 }
 
 .col-1 {
-	// width: 16.67%;
 	flex: 1;
 }
 
@@ -41,7 +37,6 @@ div[class*='col-'] {
 }
 
 .col-5 {
-	// width: 83.33%;
 	flex: 5;
 }
 
