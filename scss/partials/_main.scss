@@ -30,3 +30,7 @@ a {
 .accent {
 	color: $accent;
 }
+
+div[class*="col-"] {
+	background: blue;
+}
